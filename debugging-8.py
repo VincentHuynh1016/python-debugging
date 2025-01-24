@@ -9,7 +9,7 @@ active = True
 answer = random.randint(1, 10)
 while active:
   num = int(input("Please guess a number between 1 and 10\n"))
-  if num = answer:
+  if num == answer:
     active = False
     print("You win!")
     print(f"The number was {num}")
