@@ -5,7 +5,7 @@
  
 
 def string_counter(str_1, str_2):
-  result = "str_1".count("str_2")
+  result = str_1.count(str_2)
   return result
 
 print(string_counter("aabbaabbaa", "a"))
