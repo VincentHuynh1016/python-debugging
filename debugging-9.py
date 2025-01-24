@@ -25,6 +25,6 @@ def print_board():
 def update_board(space, player):
   board[space] = player
 
-print_board(board)
-update_board(2, 'X')
-print_board(board)
+print_board()
+update_board('2', 'X')
+print_board()
