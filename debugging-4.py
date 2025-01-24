@@ -5,7 +5,6 @@
 # Can you spot the problem?
 
 def letter_grade(num_grade):
-  num_grade = 93
   if num_grade >= 90:
     grade = 'A'
   elif num_grade >= 80:
