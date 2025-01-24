@@ -2,7 +2,11 @@
 # and print the area, however it's currently broken
 # Update the following code to make it run as expected
 
-width = input("Please enter a width: ")
-height = input("Please enter a height: ")
+print("Please enter a width: ")
+width = int(input())
+
+print("Please enter a height: ")
+height = int(input())
+
 area = width*height
 print(area)
