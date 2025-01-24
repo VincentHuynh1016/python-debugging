@@ -2,4 +2,4 @@
 # Fix the code so it works
 
 variable_1 = "benny"
-print("Julie's dog's name is {varible_1}")
+print(f"Julie's dog's name is {variable_1}")
