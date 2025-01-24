@@ -15,7 +15,7 @@ say_hello("Julie", "Nisbet")
 # 2.
 # should print "Hello Julie M Nisbet"
 # do not change the order of the arguments in this call
-say_hello(last_name="Nisbet", "Julie", middle_initial="M")
+say_hello("Jule", last_name="Nisbet",  middle_initial="M")
 
 # 3.
 # should print "Hello Julie Nisbet"
