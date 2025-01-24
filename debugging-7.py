@@ -6,4 +6,4 @@ ages = {
 }
 
 # fix this so that it prints Daryl's age
-print(ages{"Daryl"})
+print(ages.get("Daryl"))
